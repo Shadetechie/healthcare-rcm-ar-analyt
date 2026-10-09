@@ -4,7 +4,7 @@ An executive-level operational analytics framework and interactive BI dashboard 
 
 ![Dashboard Preview](OF_rcm_dashboard.png)
 
-## 📌 Executive Summary
+##  Executive Summary
 Across the audited 120k claim portfolio, the analytics engine identified **\$32.51M in Total Recoverable Revenue** against **\$24.87M in immediate at-risk exposure**, supported by a historical **41.50% appeal success rate**. 
 
 * **Primary Financial Upside:** Commercial PPO (\$10.52M) and Medicare lines (\$11.36M combined).
@@ -14,7 +14,7 @@ Across the audited 120k claim portfolio, the analytics engine identified **\$32.
 
 ---
 
-## 🛠️ Architecture & Pipeline
+##  Architecture & Pipeline
 1. **Data Engineering (Google BigQuery SQL):**
    - Flattened normalized tables (`claims_main`, `denial_labels`, `payer_rules`) into analytical models.
    - Fixed historical aging bucket distortions using `DATE_DIFF` relative to fixed portfolio anchor dates.
@@ -26,7 +26,7 @@ Across the audited 120k claim portfolio, the analytics engine identified **\$32.
 
 ---
 
-## 📊 Core Performance Metrics
+##  Core Performance Metrics
 
 | Metric | Portfolio Value | Strategic Significance |
 | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ Across the audited 120k claim portfolio, the analytics engine identified **\$32.
 
 ---
 
-## 📁 Repository Contents
+##  Repository Contents
 * `sql/`: Data ingestion, join logic, aging window calculations, and aggregated KPI queries.
 * `dashboard/`: Full interactive Excel workbook with slicer-driven charts and KPI cards.
 * `docs/`: Comprehensive Executive Summary memo tailored for hospital operational leadership.
@@ -46,7 +46,7 @@ Across the audited 120k claim portfolio, the analytics engine identified **\$32.
 
 ---
 
-## 🚀 Key Takeaways & Recommendations
+##  Key Takeaways & Recommendations
 1. **Accelerate Immediate Cash (\$14.48M):** Reassign billing specialists to recode and resubmit coding-error denials immediately.
 2. **Deploy Clinical Appeals (\$9.88M):** Focus nurse-led appeal bandwidth specifically on Orthopedic Surgery and Cardiology medical necessity rejections.
 3. **Automate Front-Door Verification (\$5.63M):** Implement pre-service authorization audits within Patient Access to eliminate missing-auth denials at check-in.
